@@ -2,23 +2,33 @@
 <html lang="es">
     <head>
         <!-- Datos que describen el documento -->
-        <meta charset="utf-8" />
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
         <meta name="author" content="Álvaro de la Fuente Fernández" />
         <meta name="keywords" content="HTML" />
         <title>Regreso al futuro</title>
     </head>
     <body>
         <!-- Datos con el contenidos que aparece en el navegador -->
-        <h1>Regreso al futuro</h1>
+        <header>
+            <h1>Regreso al futuro</h1>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="protagonistas.html" title="El elenco que formó la película">Los protagonistas</a>
+                    </li>
+                    <li>
+                        <a href="ost.html" title="La banda sonora de la película">Banda sonora</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <main>
-            <h2>Descripción</h2>
+            <h2>Introducción</h2>
             <p>
-                Back to the Future (titulada Regreso al futuro en España) es una película estadounidense de ciencia ficción y comedia de 1985 dirigida 
-                y escrita por <a href="https://es.wikipedia.org/wiki/Robert_Zemeckis" >Robert Zemeckis</a> —<a href="https://es.wikipedia.org/wiki/Bob_Gale">Bob Gale</a> también 
-                colaboró como guionista—, producida por <a href="https://es.wikipedia.org/wiki/Steven_Spielberg">Steven Spielberg</a> y protagonizada por 
-                <a href="https://es.wikipedia.org/wiki/Michael_J._Fox">Michael J. Fox</a>, <a href="https://es.wikipedia.org/wiki/Christopher_Lloyd">Christopher Lloyd</a>, 
-                <a href="https://es.wikipedia.org/wiki/Lea_Thompson">Lea Thompson</a>, <a href="https://es.wikipedia.org/wiki/Crispin_Glover">Crispin Glover</a> y 
-                <a href="https://es.wikipedia.org/wiki/Thomas_F._Wilson">Thomas F. Wilson</a>.
+                <a href="https://es.wikipedia.org/wiki/Back_to_the_Future" title="Enlace a Wikipedia">Back to the Future</a> (titulada Regreso al futuro en España) es una película estadounidense de ciencia ficción y comedia de 1985 dirigida 
+                y escrita por Robert ZemeckisBob Gale también colaboró como guionista—, producida por Steven Spielberg y protagonizada por Michael J. Fox, 
+                Christopher Lloyd, Lea ThompsonCrispin Glover y Thomas F. Wilson.
                 <br> 
                 Relata las aventuras de Marty McFly, un adolescente rebelde e impulsivo que vive con sus padres y viaja accidentalmente al pasado desde 1985 su época, a 1955 
                 la época en que sus padres se conocieron.
@@ -42,73 +52,26 @@
                 Se hizo una secuela de este mismo juego ligeramente superior para la misma consola.
             </p>
         </main>
-
-        <article>
-            <h2>Protagonistas</h2>
-            <ul>
-                <li>Michael J. Fox</li>
-                <li>Christopher Lloyd</li>
-                <li>Crispin Glover</li>
-                <li>Lea Thompson</li>
-                <li>Thomas F. Wilson</li>
-            </ul>
-        </article>
-
-        <article>
-            <h2>OST</h2>
-            <table>
-                <caption>Banda sonora</caption>
-                <tr>
-                    <th>Título</th>
-                    <th>Duración</th>
-                </tr>
-                <tr>
-                    <td>«The Power of Love»</td>
-                    <td>3:43</td>
-                </tr>
-                <tr>
-                    <td>«Time Bomb Town»</td>
-                    <td>2:45</td>
-                </tr>
-                <tr>
-                    <td>«Back to the Future»</td>
-                    <td>3:17</td>
-                </tr>
-                <tr>
-                    <td>«Heaven Is One Step Away»</td>
-                    <td>4:08</td>
-                </tr>
-                <tr>
-                    <td>«Back in Time»</td>
-                    <td>4:17</td>
-                </tr>
-                <tr>
-                    <td>«Back to the Future Overture»</td>
-                    <td>8:16</td>
-                </tr>
-                <tr>
-                    <td>«The Wallflower (Dance With Me Henry)»</td>
-                    <td>2:41</td>
-                </tr>
-                <tr>
-                    <td>«Night Train»</td>
-                    <td>2:15</td>
-                </tr>
-                <tr>
-                    <td>«Earth Angel»</td>
-                    <td>2:59</td>
-                </tr>
-                <tr>
-                    <td>«Johnny B. Goode»</td>
-                    <td>3:05</td>
-                </tr>
-            </table>
-        </article>
-
         <footer>
-            <!-- Icono de validación W3C -->
+            <nav>
+                <h2>Más información</h2>
+                <ul class="menu">
+                    <li>
+                        <a href="https://es.wikipedia.org/wiki/Trilog%C3%ADa_de_Back_to_the_Future" title="Enlace a la saga">Trilogía Regreso al futuro</a>
+                    </li>
+                    <li>
+                        <a href="https://www.vidaextra.com/cine/que-regreso-al-futuro-joya-atemporal-pese-a-que-su-futuro-pura-fantasia" title="Artículo sobre la saga">Artículo sobre la saga</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Iconos de validación W3C -->
             <a href="https://validator.w3.org/check?uri=referer" >
-                <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML5 Correcto" title="HTML5 Válido" height="64" width="63" />
+                <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" 
+                     alt="HTML5 Correcto" title="HTML5 Válido" height="64" width="63" />
+            </a>
+            <a href=" http://jigsaw.w3.org/css-validator/check/referer ">
+                <img src=" http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" height="31" width="88" />
             </a>
         </footer>
     </body>
