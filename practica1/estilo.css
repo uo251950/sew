@@ -100,7 +100,7 @@ ol {
 }
 
 /*especificidad: a=0, b=1, c=1 -> 11*/
-ul.temp {
+ul.pelicula {
     list-style-type: none;
     margin: 1em;
     padding: 1em;
@@ -158,4 +158,14 @@ ul.menu li a {
     margin: 1em;
     color: #fff;
     text-align: center;
+}
+
+/*especificidad: a=0, b=0, c=1 -> 1*/
+aside {
+    float: right;
+}
+
+/*especificidad: a=0, b=1, c=1 -> 11*/
+article.ost {
+    float: left;
 }
