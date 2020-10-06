@@ -170,7 +170,16 @@ article.ost {
     float: left;
 }
 
+/*especificidad: a=0, b=0, c=1 -> 1*/
 nav {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*especificidad: a=0, b=1, c=1 -> 11*/
+section.videofan {
     width: 100%;
     display:flex;
     align-items: center;
