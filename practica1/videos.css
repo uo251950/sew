@@ -3,3 +3,11 @@ video {
     display: flex;
     margin: 2em auto;
 }
+
+/*especificidad: a=0, b=1, c=1 -> 11*/
+section.videofan {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
