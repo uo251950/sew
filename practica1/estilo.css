@@ -80,16 +80,16 @@ p, ul, ol, table {
 
 /*especificidad: a=0, b=1, c=1 -> 11*/
 a:link {
-    color: rgb(99, 54, 248);
+    color: #E6ADFF;
     text-decoration: none;
-    border-bottom: 1px none rgb(99, 54, 248);
+    border-bottom: 1px none#E6ADFF;
 }
 
 /*especificidad: a=0, b=1, c=1 -> 11*/
 a:visited {
-    color: rgb(177, 64, 197);
+    color:#520080;
     text-decoration: none;
-    border-bottom: 1px none rgb(177, 64, 197);
+    border-bottom: 1px none#520080;
 }
 
 /*especificidad: a=0, b=0, c=1 -> 1*/
