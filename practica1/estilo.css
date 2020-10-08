@@ -83,6 +83,7 @@ a:link {
     color: #891089;
     text-decoration: none;
     border-bottom: 1px none#891089;
+    background-color: #fff;
 }
 
 /*especificidad: a=0, b=1, c=1 -> 11*/
@@ -90,6 +91,7 @@ a:visited {
     color:#A9145D;
     text-decoration: none;
     border-bottom: 1px none#A9145D;
+    background-color: #fff;
 }
 
 /*especificidad: a=0, b=1, c=1 -> 11*/
@@ -97,6 +99,7 @@ a:active {
     color:#A91614;
     text-decoration: none;
     border-bottom: 1px none#A91614;
+    background-color: #fff;
 }
 
 /*especificidad: a=0, b=0, c=1 -> 1*/
