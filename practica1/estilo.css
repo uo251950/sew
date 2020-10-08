@@ -27,14 +27,14 @@ ul.menu li {
 /*especificidad: a=0, b=0, c=1 -> 1*/
 h1, h3, h5 {
     font-stretch: semi-condensed;
-    color: slateblue;
+    color: #520080;
     background-color: transparent;
 }
 
 /*especificidad: a=0, b=0, c=1 -> 1*/
 h2, h4, h6 {
     font-style: italic;
-    color: slateblue;
+    color: #520080;
     background-color: transparent;
 }
 
@@ -134,7 +134,7 @@ table {
 
  /*especificidad: a=0, b=0, c=1 -> 1*/
  td, th {
-    background: slateblue;
+    background: #520080;
     color: white;
  }
 
@@ -144,7 +144,7 @@ ul.menu li {
     padding: 0;
     margin: 0.2em;
     display: inline-flex;
-    background-color: rgb(136, 0, 209);
+    background-color: #520080;
     border-radius: 2em;
 }
 
