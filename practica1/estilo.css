@@ -144,7 +144,7 @@ ul.menu li {
     padding: 0;
     margin: 0.2em;
     display: inline-flex;
-    background-color: slateblue;
+    background-color: rgb(136, 0, 209);
     border-radius: 2em;
 }
 
