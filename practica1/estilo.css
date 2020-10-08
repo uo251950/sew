@@ -92,6 +92,13 @@ a:visited {
     border-bottom: 1px none#A9145D;
 }
 
+/*especificidad: a=0, b=1, c=1 -> 11*/
+a:active {
+    color:#A91614;
+    text-decoration: none;
+    border-bottom: 1px none#A91614;
+}
+
 /*especificidad: a=0, b=0, c=1 -> 1*/
 ul, ol {
     list-style-position: inside;
