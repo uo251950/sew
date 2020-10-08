@@ -76,7 +76,6 @@ p, ul, ol, table {
     font-family: Verdana, Geneva, Tahoma, serif;
     font-size: 1em;
     color: black;
-    text-align: justify;
 }
 
 /*especificidad: a=0, b=1, c=1 -> 11*/
