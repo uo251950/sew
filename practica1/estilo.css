@@ -79,21 +79,21 @@ p, ul, ol, table {
 }
 
 /*especificidad: a=0, b=1, c=1 -> 11*/
-a:link {
+p a:link {
     color: #891089;
     text-decoration: none;
     border-bottom: 1px none#891089;
 }
 
 /*especificidad: a=0, b=1, c=1 -> 11*/
-a:visited {
+p a:visited {
     color:#A9145D;
     text-decoration: none;
     border-bottom: 1px none#A9145D;
 }
 
 /*especificidad: a=0, b=1, c=1 -> 11*/
-a:active {
+p a:active {
     color:#A91614;
     text-decoration: none;
     border-bottom: 1px none#A91614;
