@@ -144,11 +144,10 @@ ul.menu {
     display: flex;
 }
 */
-
 /*especificidad: a=0, b=1, c=2 -> 12*/
 ul.menu li {
-    padding: 1em;
-    margin: 0.5em;
+    padding: 0;
+    margin: 0.2em;
     display: inline;
     background-color: slateblue;
     border-radius: 2em;
