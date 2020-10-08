@@ -3,7 +3,7 @@ ul.masinfo li {
     padding: 0;
     margin: 0.2em;
     display: inline-flex;
-    background-color: slateblue;
+    background-color: #520080;
     border-radius: 2em;
 }
 
@@ -13,5 +13,6 @@ ul.masinfo li a {
     margin: 1em;
     color: #fff;
     text-align: center;
+    text-decoration: none;
 }
 
