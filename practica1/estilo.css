@@ -78,27 +78,6 @@ p, ul, ol, table {
     color: black;
 }
 
-/*especificidad: a=0, b=1, c=1 -> 11*/
-p a:link {
-    color: #891089;
-    text-decoration: none;
-    border-bottom: 1px none#891089;
-}
-
-/*especificidad: a=0, b=1, c=1 -> 11*/
-p a:visited {
-    color:#A9145D;
-    text-decoration: none;
-    border-bottom: 1px none#A9145D;
-}
-
-/*especificidad: a=0, b=1, c=1 -> 11*/
-p a:active {
-    color:#A91614;
-    text-decoration: none;
-    border-bottom: 1px none#A91614;
-}
-
 /*especificidad: a=0, b=0, c=1 -> 1*/
 ul, ol {
     list-style-position: inside;
