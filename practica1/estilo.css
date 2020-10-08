@@ -136,18 +136,11 @@ table {
     margin: 2em auto;
 }
 
-/*especificidad: a=0, b=1, c=1 -> 11*/
-ul.menu {
-    margin: 2em 6em;
-    padding: 2em;
-    display: flex;
-}
-
 /*especificidad: a=0, b=1, c=2 -> 12*/
 ul.menu li {
     padding: 0;
     margin: 0.2em;
-    display: inline;
+    display: inline-flex;
     background-color: slateblue;
     border-radius: 2em;
 }
