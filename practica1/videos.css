@@ -4,10 +4,12 @@ video {
     margin: 2em auto;
 }
 
-/*especificidad: a=0, b=1, c=1 -> 11*/
-section.videofan {
-    width: 100%;
+/*especificidad: a=0, b=0, c=2 -> 2*/
+section iframe {
+    width: 70em;
+    height: 40em;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
