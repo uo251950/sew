@@ -1,0 +1,31 @@
+/*especificidad: a=0, b=0, c=1 -> 1*/
+header {
+    position: static;
+}
+
+/*especificidad: a=0, b=0, c=1 -> 1*/
+main {
+    position: relative;
+}
+
+/*especificidad: a=0, b=0, c=1 -> 1*/
+footer {
+    position: static;
+}
+
+/*especificidad: a=0, b=1, c=2 -> 12*/
+ul.menu li {
+    display: inline-flex;
+}
+
+/*especificidad: a=0, b=0, c=1 -> 1*/
+nav {
+    display: flex;
+}
+
+/*especificidad: a=0, b=0, c=1 -> 1*/
+aside {
+    position: relative;
+    float: left;
+}
+

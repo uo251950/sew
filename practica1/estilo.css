@@ -43,6 +43,7 @@ h1 {
     font-size: 3em;
     letter-spacing: 0.5em;
     border: solid;
+    text-align: center;
     border-radius: 2em;
 }
 
@@ -129,7 +130,6 @@ table {
 ul.menu li {
     padding: 0;
     margin: 0.2em;
-    display: inline-flex;
     background-color: #520080;
     border-radius: 2em;
 }
@@ -146,7 +146,6 @@ ul.menu li a {
 /*especificidad: a=0, b=0, c=1 -> 1*/
 nav {
     width: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
