@@ -8,10 +8,14 @@ main {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    font-stretch: semi-condensed;
     padding: 0.5em 3em;
     margin: 1em 1em;
+}
+
+/*especificidad: a=0, b=0, c=1 -> 1*/
+h2, h3, h4, h5, h6 {
     text-align: center;
-    text-transform: uppercase;
 }
 
 /*especificidad: a=0, b=1, c=2 -> 12*/
@@ -25,14 +29,13 @@ ul.menu li {
 }
 
 /*especificidad: a=0, b=0, c=1 -> 1*/
-h1, h3, h5 {
-    font-stretch: semi-condensed;
+h1, h2 {
     color: #520080;
     background-color: transparent;
 }
 
 /*especificidad: a=0, b=0, c=1 -> 1*/
-h2, h4, h6 {
+h3, h4, h5, h6 {
     font-style: italic;
     color: #520080;
     background-color: transparent;
@@ -77,11 +80,7 @@ p, ul, ol, table {
     font-family: Verdana, Geneva, Tahoma, serif;
     font-size: 1em;
     color: black;
-}
-
-/*especificidad: a=0, b=0, c=1 -> 1*/
-ul, ol {
-    list-style-position: inside;
+    background-color: #fff;
 }
 
 /*especificidad: a=0, b=0, c=1 -> 1*/
@@ -114,8 +113,6 @@ table {
     border-spacing: 1em;
     border-style: solid;
     border-radius: 1em;
-    background: transparent;
-    color: #fff;
     margin: 2em;
  }
 
@@ -126,10 +123,10 @@ table {
  }
 
 /*especificidad: a=0, b=1, c=2 -> 12*/
-
-ul.menu li {
-    padding: 0;
+ul.menu {
+    padding: 0em;
     margin: 0.2em;
+    color: #fff;
     background-color: #520080;
     border-radius: 2em;
 }
@@ -137,8 +134,9 @@ ul.menu li {
 /*especificidad: a=0, b=1, c=3 -> 13*/
 ul.menu li a {
     font-size: 1.20em;
-    margin: 1em;
+    margin: 0.25em;
     color: #fff;
+    background-color: #520080;
     text-decoration: none;
     text-align: center;
 }
