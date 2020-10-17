@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+
+<rutas>
+    <ruta nombre="Caminito del Rey" recomendacion="10">
+        <tipo>Ruta por desfiladero</tipo>
+        <dificultad>Solo para expertos</dificultad>
+        <tiempo>4 horas</tiempo>
+        <agencia>Sin agencia</agencia>
+        <descripcion>
+            El Caminito del Rey es un paso construido en las paredes del desfiladero de los Gaitanes, entre los términos municipales de Ardales, 
+            Álora y Antequera, en la provincia de Málaga, comunidad autónoma de Andalucía, España. Se trata de una pasarela peatonal de más de tres 
+            kilómetros (además de 4,8 kilómetros de accesos), adosada a la roca en el interior de un cañón, con tramos de una anchura de apenas un metro, 
+            colgando hasta 105 metros de altura sobre el río, en unas paredes casi verticales.
+        </descripcion>
+        <aptos>Únicamente adultos en buen estado de forma</aptos>
+        <lugar_inicio>Desfiladero de los Gaitanes</lugar_inicio>
+        <direccion_inicio>El Caminito del Rey, 29550, Málaga</direccion_inicio>
+        <coordenadas>
+			<latitud var="N">
+				<grados>36</grados>
+				<minutos>54</minutos>
+				<segundos>57</segundos>
+			</latitud>
+			<longitud var="O">
+				<grados>4</grados>
+				<minutos>46</minutos>
+				<segundos>22</segundos>
+			</longitud>
+			<altitud unidades="m">105</altitud>
+        </coordenadas>
+        <referencias>
+			<referencia tipo="url">...</referencia>
+			<referencia tipo="url">...</referencia>
+			<referencia tipo="url">...</referencia>
+		</referencias>
+        <hitos>
+            <hito>
+                <nombre></nombre>
+				<descripcion></descripcion>
+				<coordenadas>
+					<latitud var="">
+						<grados></grados>
+						<minutos></minutos>
+						<segundos></segundos>
+					</latitud>
+					<longitud var="">
+						<grados></grados>
+						<minutos></minutos>
+						<segundos></segundos>
+					</longitud>
+					<altitud unidades="m"></altitud>
+				</coordenadas>
+				<distancia_predecesor unidades="km"></distancia_predecesor>
+				<imagenes>
+					<imagen tipo="ruta_local"></imagen>
+					<imagen tipo="ruta_local"></imagen>
+					<imagen tipo="ruta_local"></imagen>
+				</imagenes>
+				<videos>
+					<video tipo="url"></video>
+				</videos>    
+            </hito>
+        </hitos>
+    </ruta>
+</rutas>
