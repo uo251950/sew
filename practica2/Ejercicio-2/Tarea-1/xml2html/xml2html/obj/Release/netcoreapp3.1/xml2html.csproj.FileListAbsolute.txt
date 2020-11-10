@@ -1,0 +1,13 @@
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\xml2html\xml2html\bin\Release\netcoreapp3.1\xml2html.exe
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\xml2html\xml2html\bin\Release\netcoreapp3.1\xml2html.deps.json
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\xml2html\xml2html\bin\Release\netcoreapp3.1\xml2html.runtimeconfig.json
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\xml2html\xml2html\bin\Release\netcoreapp3.1\xml2html.runtimeconfig.dev.json
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\xml2html\xml2html\bin\Release\netcoreapp3.1\xml2html.dll
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\xml2html\xml2html\bin\Release\netcoreapp3.1\xml2html.pdb
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\xml2html\xml2html\obj\Release\netcoreapp3.1\xml2html.csprojAssemblyReference.cache
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\xml2html\xml2html\obj\Release\netcoreapp3.1\xml2html.AssemblyInfoInputs.cache
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\xml2html\xml2html\obj\Release\netcoreapp3.1\xml2html.AssemblyInfo.cs
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\xml2html\xml2html\obj\Release\netcoreapp3.1\xml2html.csproj.CoreCompileInputs.cache
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\xml2html\xml2html\obj\Release\netcoreapp3.1\xml2html.dll
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\xml2html\xml2html\obj\Release\netcoreapp3.1\xml2html.pdb
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\xml2html\xml2html\obj\Release\netcoreapp3.1\xml2html.genruntimeconfig.cache

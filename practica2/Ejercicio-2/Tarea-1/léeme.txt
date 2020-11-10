@@ -1,0 +1,16 @@
+Lenguaje utilizado
+-------------------
+C#
+
+Método de uso del ejecutable
+-----------------------------
+Se debe acceder desde la carpeta Ejercicio-2\Tarea-1 a la ruta xml2html\xml2html\bin\Debug\netcoreapp3.1 donde se
+encuentra el ejecutable y los archivos .xml y .css. Una vez aquí, se puede abrir el cmd en esta ruta para ejecutar xml2html.exe de la
+siguiente manera: 
+
+xml2html <docXML> <docHTML>
+
+docXML debe estar en la misma ruta que el fichero .exe mientras que docHTML es el nombre del fichero de salida que se desea crear o
+modificar y siempre será también en la misma ubicación que el .exe.
+
+También se puede abrir la solución adjunta en VS 2019 y ejecutarla con los parámetros mencionados.

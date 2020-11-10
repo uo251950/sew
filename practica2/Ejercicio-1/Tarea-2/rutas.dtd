@@ -1,0 +1,41 @@
+<!ELEMENT rutas (ruta+)>
+<!ELEMENT ruta (tipo, dificultad, tiempo, agencia, descripcion, aptos, lugar_inicio, direccion_inicio, coordenadas, referencias, hitos)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT dificultad (#PCDATA)>
+<!ELEMENT tiempo (#PCDATA)>
+<!ELEMENT agencia (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT aptos (#PCDATA)>
+<!ELEMENT lugar_inicio (#PCDATA)>
+<!ELEMENT direccion_inicio (#PCDATA)>
+<!ELEMENT coordenadas (latitud, longitud, altitud)>
+<!ELEMENT latitud (grados, minutos, segundos)>
+<!ELEMENT grados (#PCDATA)>
+<!ELEMENT minutos (#PCDATA)>
+<!ELEMENT segundos (#PCDATA)>
+<!ELEMENT longitud (grados, minutos, segundos)>
+<!ELEMENT altitud (#PCDATA)>
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT hitos (hito+)>
+<!ELEMENT hito (nombre, descripcion, coordenadas, distancia_predecesor, imagenes)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT distancia_predecesor (#PCDATA)>
+<!ELEMENT imagenes (imagen+)>
+<!ELEMENT imagen (#PCDATA)>
+
+<!ATTLIST ruta 
+	nombre CDATA #REQUIRED
+	recomendacion CDATA #REQUIRED>
+<!ATTLIST latitud 
+	var CDATA #REQUIRED>
+<!ATTLIST longitud 
+	var CDATA #REQUIRED>
+<!ATTLIST altitud 
+	unidades CDATA #REQUIRED>
+<!ATTLIST referencia 
+	tipo CDATA #REQUIRED>
+<!ATTLIST distancia_predecesor 
+	unidades CDATA #REQUIRED>
+<!ATTLIST imagen 
+	tipo CDATA #REQUIRED>

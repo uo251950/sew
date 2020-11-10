@@ -1,0 +1,16 @@
+Lenguaje utilizado
+-------------------
+C#
+
+Método de uso del ejecutable
+-----------------------------
+Se debe acceder desde la carpeta Ejercicio-2\Tarea-2 a la ruta xml2kml\xml2kml\bin\Debug\netcoreapp3.1 donde se
+encuentra el ejecutable y el archivo .xml. Una vez aquí, se puede abrir el cmd en esta ruta para ejecutar xml2kml.exe de la
+siguiente manera: 
+
+xml2kml <docXML> <docKML>
+
+docXML debe estar en la misma ruta que el fichero .exe mientras que docKML es el nombre del fichero de salida que se desea crear o
+modificar y siempre será también en la misma ubicación que el .exe.
+
+También se puede abrir la solución adjunta en VS 2019 y ejecutarla con los parámetros mencionados.

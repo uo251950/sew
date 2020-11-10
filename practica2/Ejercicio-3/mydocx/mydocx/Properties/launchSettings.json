@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "mydocx": {
+      "commandName": "Project",
+      "commandLineArgs": "test.docx test.xsd"
+    }
+  }
+}

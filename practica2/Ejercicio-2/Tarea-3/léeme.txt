@@ -1,0 +1,16 @@
+Lenguaje utilizado
+-------------------
+C#
+
+Método de uso del ejecutable
+-----------------------------
+Se debe acceder desde la carpeta Ejercicio-2\Tarea-3 a la ruta xml2mysvg\xml2mysvg\bin\Debug\netcoreapp3.1 donde se
+encuentra el ejecutable y el archivo .xml. Una vez aquí, se puede abrir el cmd en esta ruta para ejecutar xml2mysvg.exe de la
+siguiente manera: 
+
+xml2mysvg <docXML> <docSVG1> <docSVG2> <docSVG3>
+
+docXML debe estar en la misma ruta que el fichero .exe mientras que docSVGX (siendo X el número del .svg) es el nombre del fichero 
+de salida que se desea crear o modificar y siempre será también en la misma ubicación que el .exe.
+
+También se puede abrir la solución adjunta en VS 2019 y ejecutarla con los parámetros mencionados.

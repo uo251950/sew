@@ -1,0 +1,13 @@
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\sew_workspace_vs2019\mydocx\mydocx\bin\Debug\netcoreapp3.1\mydocx.exe
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\sew_workspace_vs2019\mydocx\mydocx\bin\Debug\netcoreapp3.1\mydocx.deps.json
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\sew_workspace_vs2019\mydocx\mydocx\bin\Debug\netcoreapp3.1\mydocx.runtimeconfig.json
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\sew_workspace_vs2019\mydocx\mydocx\bin\Debug\netcoreapp3.1\mydocx.runtimeconfig.dev.json
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\sew_workspace_vs2019\mydocx\mydocx\bin\Debug\netcoreapp3.1\mydocx.dll
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\sew_workspace_vs2019\mydocx\mydocx\bin\Debug\netcoreapp3.1\mydocx.pdb
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\sew_workspace_vs2019\mydocx\mydocx\obj\Debug\netcoreapp3.1\mydocx.csprojAssemblyReference.cache
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\sew_workspace_vs2019\mydocx\mydocx\obj\Debug\netcoreapp3.1\mydocx.AssemblyInfoInputs.cache
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\sew_workspace_vs2019\mydocx\mydocx\obj\Debug\netcoreapp3.1\mydocx.AssemblyInfo.cs
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\sew_workspace_vs2019\mydocx\mydocx\obj\Debug\netcoreapp3.1\mydocx.csproj.CoreCompileInputs.cache
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\sew_workspace_vs2019\mydocx\mydocx\obj\Debug\netcoreapp3.1\mydocx.dll
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\sew_workspace_vs2019\mydocx\mydocx\obj\Debug\netcoreapp3.1\mydocx.pdb
+C:\Users\alvar\Desktop\EII\SEW\SEW_2020_2021\SEW_PL\sew_workspace_vs2019\mydocx\mydocx\obj\Debug\netcoreapp3.1\mydocx.genruntimeconfig.cache

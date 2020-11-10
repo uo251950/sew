@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rutas>
+
+	<!--PRIMERA RUTA-->
+
+    <ruta nombre="Caminito del Rey" recomendacion="10">
+        <tipo>Ruta por desfiladero</tipo>
+        <dificultad>baja</dificultad>
+        <tiempo>2 horas</tiempo>
+        <agencia>Sin agencia</agencia>
+        <descripcion>
+            El Caminito del Rey es un paso construido en las paredes del desfiladero de los Gaitanes, entre los términos municipales de Ardales, 
+            Álora y Antequera, en la provincia de Málaga, comunidad autónoma de Andalucía, España. Se trata de una pasarela peatonal de más de tres 
+            kilómetros (además de 4,8 kilómetros de accesos), adosada a la roca en el interior de un cañón, con tramos de una anchura de apenas un metro, 
+            colgando hasta 105 metros de altura sobre el río, en unas paredes casi verticales.
+        </descripcion>
+        <aptos>Únicamente adultos en buen estado de forma</aptos>
+        <lugar_inicio>Desfiladero de los Gaitanes</lugar_inicio>
+        <direccion_inicio>El Caminito del Rey, 29550, Málaga</direccion_inicio>
+        <coordenadas>
+			<longitud var="W">
+				<grados>4</grados>
+				<minutos>46</minutos>
+				<segundos>22</segundos>
+			</longitud>
+			<latitud var="N">
+				<grados>36</grados>
+				<minutos>54</minutos>
+				<segundos>57</segundos>
+			</latitud>
+			<altitud unidades="m">105</altitud>
+        </coordenadas>
+        <referencias>
+			<referencia tipo="url">http://pavostrotones.blogspot.com/2011/07/gaitanejo-caminito-del-rey.html</referencia>
+			<referencia tipo="url">https://es.wikiloc.com/rutas-senderismo/caminito-del-rey-paraje-natural-desfiladero-de-los-gaitanes-16690751</referencia>
+			<referencia tipo="url">https://es.wikipedia.org/wiki/Caminito_del_Rey</referencia>
+		</referencias>
+        <hitos>
+            <hito>
+                <nombre>Embalse de Gaitanejo</nombre>
+				<descripcion>
+					Obras de ingeniería de inicios del siglo XX que constituyen piezas excepcionales del patrimonio hidráulico de la provincia y que, además, son magníficos 
+					ejemplos de integración en el paraje en que se encuentran.
+				</descripcion>
+				<coordenadas>
+					<longitud var="W">
+						<grados>4</grados>
+						<minutos>47</minutos>
+						<segundos>31</segundos>
+					</longitud>
+					<latitud var="N">
+						<grados>36</grados>
+						<minutos>55</minutos>
+						<segundos>52</segundos>
+					</latitud>
+					<altitud unidades="m">301</altitud>
+				</coordenadas>
+				<distancia_predecesor unidades="km">0</distancia_predecesor>
+				<imagenes>
+					<imagen tipo="ruta_local">/multimedia/embalse1.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/embalse2.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/embalse3.jpg</imagen>
+				</imagenes>
+            </hito>
+			<hito>
+                <nombre>Mirador de Cristal</nombre>
+				<descripcion>Al hacer el camino se puede disfrutar de un paisaje espectacular desde el Mirador de Cristal.</descripcion>
+				<coordenadas>
+					<longitud var="W">
+						<grados>4</grados>
+						<minutos>46</minutos>
+						<segundos>23</segundos>
+					</longitud>
+					<latitud var="N">
+						<grados>36</grados>
+						<minutos>55</minutos>
+						<segundos>01</segundos>
+					</latitud>
+					<altitud unidades="m">230</altitud>
+				</coordenadas>
+				<distancia_predecesor unidades="km">3</distancia_predecesor>
+				<imagenes>
+					<imagen tipo="ruta_local">/multimedia/mirador1.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/mirador2.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/mirador3.JPG</imagen>
+				</imagenes>   
+            </hito>
+			<hito>
+                <nombre>Estación ferroviaria de El Chorro</nombre>
+				<descripcion>Patrimonio industrial arquitectónico del siglo XIX que fue decisivo para el desarrollo de Málaga.</descripcion>
+				<coordenadas>
+					<longitud var="W">
+						<grados>4</grados>
+						<minutos>45</minutos>
+						<segundos>34</segundos>
+					</longitud>
+					<latitud var="N">
+						<grados>36</grados>
+						<minutos>54</minutos>
+						<segundos>33</segundos>
+					</latitud>
+					<altitud unidades="m">238</altitud>
+				</coordenadas>
+				<distancia_predecesor unidades="km">3.7</distancia_predecesor>
+				<imagenes>
+					<imagen tipo="ruta_local">/multimedia/estacion1.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/estacion2.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/estacion3.jpg</imagen>
+				</imagenes>
+            </hito>
+        </hitos>
+    </ruta>
+
+	<!--SEGUNDA RUTA-->
+
+	<ruta nombre="Mojón de la Víbora-Peruétano-Charcones" recomendacion="1">
+        <tipo>Ruta por sendero</tipo>
+        <dificultad>media</dificultad>
+        <tiempo>4 horas</tiempo>
+        <agencia>Sin agencia</agencia>
+        <descripcion>
+            Ruta por el interior del Parque Natural de Los Alcornocales, podría denominarse arbórea, en las cercanías del Peñón del Berrueco. El alcornocal domina el paisaje, 
+			junto a el conviven quejigos, madroños y un denso sotobosque. En el camino encontraremos varias fuentes y algún que otro árbol catalogado como singular. 
+        </descripcion>
+        <aptos>Cualquiera</aptos>
+        <lugar_inicio>Restaurante Mojón de la Víbora</lugar_inicio>
+        <direccion_inicio>Carretera Ubrique - Cortés, km40, 11600, Ubrique, Cádiz</direccion_inicio>
+        <coordenadas>
+			<longitud var="W">
+				<grados>5</grados>
+				<minutos>27</minutos>
+				<segundos>16</segundos>
+			</longitud>
+			<latitud var="N">
+				<grados>36</grados>
+				<minutos>37</minutos>
+				<segundos>10</segundos>
+			</latitud>
+			<altitud unidades="m">586</altitud>
+        </coordenadas>
+        <referencias>
+			<referencia tipo="url">https://es.wikiloc.com/rutas-senderismo/mojon-de-la-vibora-peruetano-charcones-ubrique-cadiz-29-nov-2015-11547285#wp-11547304</referencia>
+			<referencia tipo="url">http://pavostrotones.blogspot.com/2014/10/mojon-de-la-vibora-puerto-del-peruetano.html</referencia>
+			<referencia tipo="url">https://es.wikipedia.org/wiki/Ubrique</referencia>
+		</referencias>
+        <hitos>
+            <hito>
+                <nombre>Descansadero del Berrueco</nombre>
+				<descripcion>Sin descripcion</descripcion>
+				<coordenadas>
+					<longitud var="W">
+						<grados>5</grados>
+						<minutos>25</minutos>
+						<segundos>43</segundos>
+					</longitud>
+					<latitud var="N">
+						<grados>36</grados>
+						<minutos>36</minutos>
+						<segundos>48</segundos>
+					</latitud>
+					<altitud unidades="m">728</altitud>
+				</coordenadas>
+				<distancia_predecesor unidades="km">0</distancia_predecesor>
+				<imagenes>
+					<imagen tipo="ruta_local">/multimedia/descansadero1.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/descansadero2.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/descansadero3.jpg</imagen>
+				</imagenes>
+            </hito>
+			<hito>
+                <nombre>Angarilla</nombre>
+				<descripcion>Sin descripcion</descripcion>
+				<coordenadas>
+					<longitud var="W">
+						<grados>5</grados>
+						<minutos>27</minutos>
+						<segundos>24</segundos>
+					</longitud>
+					<latitud var="N">
+						<grados>36</grados>
+						<minutos>36</minutos>
+						<segundos>09</segundos>
+					</latitud>
+					<altitud unidades="m">459</altitud>
+				</coordenadas>
+				<distancia_predecesor unidades="km">2.76</distancia_predecesor>
+				<imagenes>
+					<imagen tipo="ruta_local">/multimedia/angarilla1.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/angarilla2.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/angarilla3.JPG</imagen>
+				</imagenes>   
+            </hito>
+			<hito>
+                <nombre>Alcornoque</nombre>
+				<descripcion>Sin descripcion</descripcion>
+				<coordenadas>
+					<longitud var="W">
+						<grados>5</grados>
+						<minutos>27</minutos>
+						<segundos>22</segundos>
+					</longitud>
+					<latitud var="N">
+						<grados>36</grados>
+						<minutos>36</minutos>
+						<segundos>28</segundos>
+					</latitud>
+					<altitud unidades="m">491</altitud>
+				</coordenadas>
+				<distancia_predecesor unidades="km">0.576</distancia_predecesor>
+				<imagenes>
+					<imagen tipo="ruta_local">/multimedia/alcornoque1.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/alcornoque2.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/alcornoque3.jpg</imagen>
+				</imagenes>
+            </hito>
+        </hitos>
+    </ruta>
+
+	<!--TERCERA RUTA-->
+
+	<ruta nombre="Ruta del Cares" recomendacion="9">
+        <tipo>Ruta montañosa</tipo>
+        <dificultad>baja</dificultad>
+        <tiempo>4 horas</tiempo>
+        <agencia>Sin agencia</agencia>
+        <descripcion>
+            Es el Parque Nacional más visitado de toda la Península Ibérica y en él hay uno de los itinerarios de senderismo más conocidos y transitados: La Ruta del Cares, 
+			la cual une, mediante 12 kilómetros de recorrido, las provincias de Asturias y León. La Senda recibe su nombre del río Cares, que la acompaña durante todo el camino, 
+			aunque también es conocida como la «divina garganta».
+        </descripcion>
+        <aptos>Cualquiera</aptos>
+        <lugar_inicio>Aldea Caín</lugar_inicio>
+        <direccion_inicio>24915, Posada de Valdeón, León</direccion_inicio>
+        <coordenadas>
+			<longitud var="W">
+				<grados>4</grados>
+				<minutos>54</minutos>
+				<segundos>11</segundos>
+			</longitud>
+			<latitud var="N">
+				<grados>43</grados>
+				<minutos>12</minutos>
+				<segundos>48</segundos>
+			</latitud>
+			<altitud unidades="m">449</altitud>
+        </coordenadas>
+        <referencias>
+			<referencia tipo="url">http://www.llamaello.es/rutacares.htm</referencia>
+			<referencia tipo="url">https://es.wikiloc.com/rutas-senderismo/ruta-del-cares-desde-cain-11984239</referencia>
+			<referencia tipo="url">https://es.wikipedia.org/wiki/Ruta_del_Cares</referencia>
+		</referencias>
+        <hitos>
+            <hito>
+                <nombre>Pasarela de la presa de Caín</nombre>
+				<descripcion>
+					Se encuentra en la boca de la garganta, en las inmediaciones de Caín, unas centenas de metros río abajo. Se reinicia la andadura por la margen izquierda del 
+					Cares hasta el Puente Los Pinteros. Por las lleras de la otra margen del río, bajo los senderos que buscan paso por el Canto Mabro (vertiente del Macizo 
+					Central), se llega a la presa de Caín. El Puente La Presa es el punto de arranque se este camino pintado en la peña.
+				</descripcion>
+				<coordenadas>
+					<longitud var="W">
+						<grados>4</grados>
+						<minutos>54</minutos>
+						<segundos>01</segundos>
+					</longitud>
+					<latitud var="N">
+						<grados>43</grados>
+						<minutos>13</minutos>
+						<segundos>04</segundos>
+					</latitud>
+					<altitud unidades="m">445</altitud>
+				</coordenadas>
+				<distancia_predecesor unidades="km">0</distancia_predecesor>
+				<imagenes>
+					<imagen tipo="ruta_local">/multimedia/presa1.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/presa2.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/presa3.jpg</imagen>
+				</imagenes>
+            </hito>
+			<hito>
+                <nombre>Puente de Bolín</nombre>
+				<descripcion>
+					Por La Tranvía baja el camino antiguo, destrepando por la pared en cuanto ceden las verticales de Sulatranvia. El paso a la otra vertiente de 
+					la garganta se hacía por el Puente Viejo de Trea, cuyos vestigios aún se conservan. Riegas y saltos vierten al caudal del canal y se precipitan en cascada 
+					sobre el curso del Cares.
+				</descripcion>
+				<coordenadas>
+					<longitud var="W">
+						<grados>4</grados>
+						<minutos>53</minutos>
+						<segundos>40</segundos>
+					</longitud>
+					<latitud var="N">
+						<grados>43</grados>
+						<minutos>13</minutos>
+						<segundos>38</segundos>
+					</latitud>
+					<altitud unidades="m">438</altitud>
+				</coordenadas>
+				<distancia_predecesor unidades="km">1.15</distancia_predecesor>
+				<imagenes>
+					<imagen tipo="ruta_local">/multimedia/bolin1.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/bolin2.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/bolin3.JPG</imagen>
+				</imagenes> 
+            </hito>
+			<hito>
+                <nombre>Hostal Poncebos</nombre>
+				<descripcion>
+					Este hostal básico con vistas al río Cares está situado en un valle pintoresco al norte del Parque Nacional de los Picos de Europa, a 10 minutos a pie del 
+					puente de Poncebos y del funicular de Bulnes.
+				</descripcion>
+				<coordenadas>
+					<longitud var="W">
+						<grados>4</grados>
+						<minutos>49</minutos>
+						<segundos>52</segundos>
+					</longitud>
+					<latitud var="N">
+						<grados>43</grados>
+						<minutos>15</minutos>
+						<segundos>43</segundos>
+					</latitud>
+					<altitud unidades="m">286</altitud>
+				</coordenadas>
+				<distancia_predecesor unidades="km">6.35</distancia_predecesor>
+				<imagenes>
+					<imagen tipo="ruta_local">/multimedia/hostal1.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/hostal2.jpg</imagen>
+					<imagen tipo="ruta_local">/multimedia/hostal3.jpg</imagen>
+				</imagenes>
+            </hito>
+        </hitos>
+    </ruta>
+</rutas>

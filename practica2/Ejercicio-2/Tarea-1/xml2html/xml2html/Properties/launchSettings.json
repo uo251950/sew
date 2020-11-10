@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "xml2html": {
+      "commandName": "Project",
+      "commandLineArgs": "rutas.xml prueba.html"
+    }
+  }
+}

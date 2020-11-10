@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "xml2mysvg": {
+      "commandName": "Project",
+      "commandLineArgs": "rutas.xml r1.svg r2.svg r3.svg"
+    }
+  }
+}

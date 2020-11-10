@@ -122,7 +122,7 @@ table {
     color: white;
  }
 
-/*especificidad: a=0, b=1, c=2 -> 12*/
+/*especificidad: a=0, b=1, c=1 -> 11*/
 ul.menu {
     padding: 0em;
     margin: 0.2em;

@@ -1,0 +1,21 @@
+Lenguaje utilizado
+-------------------
+C#
+
+Utilidad del programa
+---------------------
+Genera un .xsd que berifica el .xml que tiene el contenido principal de un .docx, es decir, descomprime el Word y procesa el
+documento "document.xml" que es donde se aloja todo el contenido principal, creando un schema de acorde a dicho archivo.
+
+Método de uso del ejecutable
+-----------------------------
+Se debe acceder desde la carpeta Ejercicio-3 a la ruta mydocx\mydocx\bin\Debug\netcoreapp3.1 donde se
+encuentra el ejecutable y el archivo Word. Una vez aquí, se puede abrir el cmd en esta ruta para ejecutarlo de la
+siguiente manera: 
+
+mydocx <.docx> <.xsd>
+
+.docx debe estar en la misma ruta que el fichero .exe mientras que .xsd es el nombre del fichero de salida que se desea crear o
+modificar y siempre será también en la misma ubicación que el .exe.
+
+También se puede abrir la solución adjunta en VS 2019 y ejecutarla con los parámetros mencionados.
