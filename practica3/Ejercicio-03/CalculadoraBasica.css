@@ -18,14 +18,12 @@ p.pantalla {
 }
 
 input.opcion {
-    color: red;
     font-weight: bold;
 }
 
 input {
     width: 4em;
     padding: 0;
-    background-color: darkgrey;
 }
 
 footer {
