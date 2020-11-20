@@ -19,6 +19,7 @@ p.pantalla {
 
 input.opcion {
     color: red;
+    font-weight: bold;
 }
 
 input {
