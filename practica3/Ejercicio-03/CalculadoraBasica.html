@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8" >
-        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Calculadora</title>
         <link rel="stylesheet" href="CalculadoraBasica.css"/>
         <script src="CalculadoraBasica.js"></script>
@@ -12,40 +12,80 @@
             <h1>Calculadora básica</h1>
         </header>
         <main>
-            <form>
-                <p id = "salida" class="pantalla">0</p>
-                <p>
-                    <input type="button" class="opcion" value="MRC" onclick="ejecutar(this)" />
-                    <input type="button" class="opcion" value="M-" onclick="ejecutar(this)" />
-                    <input type="button" class="opcion" value="M+" onclick="ejecutar(this)" />
-                    <input type="button" class="teclaBasica" value="/" onclick="ejecutar(this)" />
-                </p>
-                <p>
-                    <input type="button" class="teclaBasica" value="7" onclick="ejecutar(this)" />
-                    <input type="button" class="teclaBasica" value="8" onclick="ejecutar(this)" />
-                    <input type="button" class="teclaBasica" value="9" onclick="ejecutar(this)" />
-                    <input type="button" class="teclaBasica" value="*" onclick="ejecutar(this)" />
-                </p>
-                <p>
-                    <input type="button" class="teclaBasica" value="4" onclick="ejecutar(this)" />
-                    <input type="button" class="teclaBasica" value="5" onclick="ejecutar(this)" />
-                    <input type="button" class="teclaBasica" value="6" onclick="ejecutar(this)" />
-                    <input type="button" class="teclaBasica" value="-" onclick="ejecutar(this)" />
-                    
-                </p>
-                <p>
-                    <input type="button" class="teclaBasica" value="1" onclick="ejecutar(this)" />
-                    <input type="button" class="teclaBasica" value="2" onclick="ejecutar(this)" />
-                    <input type="button" class="teclaBasica" value="3" onclick="ejecutar(this)" />
-                    <input type="button" class="teclaBasica" value="+" onclick="ejecutar(this)" />
-                </p>
-                <p>
-                    <input type="button" class="teclaBasica" value="0" onclick="ejecutar(this)" />
-                    <input type="button" class="teclaBasica" value="." onclick="ejecutar(this)" />
-                    <input type="button" class="opcion" value="C" onclick="ejecutar(this)"/>
-                    <input type="button" class="igual" value="=" onclick="ejecutar(this)"/>
-                </p>
-            </form>
+            <table>
+                <tr>
+                    <td>
+                        <input type="button" class="opcion" value="MRC" onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="opcion" value="M-" onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="opcion" value="M+" onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="teclaBasica" value="/" onclick="ejecutar(this)" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="teclaBasica" value="7" onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="teclaBasica" value="8" onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="teclaBasica" value="9" onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="teclaBasica" value="*" onclick="ejecutar(this)" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="teclaBasica" value="4" onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="teclaBasica" value="5" onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="teclaBasica" value="6" onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="teclaBasica" value="-" onclick="ejecutar(this)" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="teclaBasica" value="1" onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="teclaBasica" value="2" onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="teclaBasica" value="3" onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="teclaBasica" value="+" onclick="ejecutar(this)" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="teclaBasica" value="0" onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="teclaBasica" value="." onclick="ejecutar(this)" />
+                    </td>
+                    <td>
+                        <input type="button" class="opcion" value="C" onclick="ejecutar(this)"/>
+                    </td>
+                    <td>
+                        <input type="button" class="igual" value="=" onclick="ejecutar(this)"/>
+                    </td>
+                </tr>
+            </table>
+
+            
         </main>
         <footer>
             <a href="http://validator.w3.org/check/referer" hreflang="en-us">
