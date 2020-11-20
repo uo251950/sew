@@ -1,3 +1,7 @@
+p, form, input, footer {
+    position: relative;
+}
+
 form {
     border: 0.4em black solid;
     border-radius: 10%;
