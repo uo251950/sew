@@ -1,20 +1,12 @@
-form {
-    border: 0.4em black solid;
-    border-radius: 10%;
-    width: 20em;
-    text-align: center;
-    background-color: white;
-}
-
 p.pantalla {
     width: 10em;
     border: 0.2em black dashed;
     border-radius: 10%;
     text-align: right;
-    position: relative;
     left: 4em;
     padding: 0.7em 0.7em 0.7em 0.7em;
-    background-color: white; 
+    background-color: white;
+    margin: auto;
 }
 
 input.opcion {
@@ -23,6 +15,7 @@ input.opcion {
 
 input {
     width: 4em;
+    margin: 0.5em;
 }
 
 footer {
@@ -35,4 +28,10 @@ table {
     width: 20em;
     text-align: center;
     background-color: white;
+    padding: 2em;
+}
+
+th {
+    justify-content: center;
+    align-items: center;
 }
