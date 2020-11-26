@@ -23,7 +23,10 @@ class CalculadoraBasica {
     }
 
     almacenar(datos) {
-        this.memoria.push(datos);
+        if(datos !== "Ans")
+            this.memoria.push(datos);
+        else
+            this.memoria.push(calculadora.ans);
     }
 
     limpiar() {
@@ -100,6 +103,7 @@ class TeclaBasica {
 class Opcion {
     constructor(opcion) {
         this.opcion = opcion;
+        this.sol = null;
     }
 
     ejecutar() {
@@ -149,6 +153,21 @@ class Opcion {
             case "e":
                 this.#euler()
                 break;
+            case "||":
+                this.#abs();
+                break;
+            case "sec":
+                this.#sec();
+                break;
+            case "csc":
+                this.#csc();
+                break;
+            case "cot":
+                this.#cot();
+                break;
+            case "Ran":
+                this.#random();
+                breaK;
             default:
                 break;
 
@@ -164,12 +183,8 @@ class Opcion {
     }
 
     #mrc() {
-        if(calculadora.isEstaOperando())
-            calculadora.pantalla.innerHTML += calculadora.mc.toString();
-        else
-            calculadora.pantalla.innerHTML += calculadora.mc.toString();
-
-        calculadora.almacenar(calculadora.mc);
+       calculadora.pantalla.innerHTML += calculadora.mc.toString();
+       calculadora.almacenar(calculadora.mc);
     }
 
     #borrar() {
@@ -179,58 +194,89 @@ class Opcion {
     }
 
     #sin() {
-        calculadora.pantalla.innerHTML = Math.sin(calculadora.pantalla.innerHTML);
-        calculadora.limpiar();
+        this.sol = Math.sin(parseFloat(calculadora.pantalla.innerHTML));
+        this.#finalizarOpcionOperacion(this.sol);
     }
 
     #cos() {
-        calculadora.pantalla.innerHTML = Math.cos(calculadora.pantalla.innerHTML);
-        calculadora.limpiar();
+        this.sol = Math.cos(parseFloat(calculadora.pantalla.innerHTML));
+        this.#finalizarOpcionOperacion(this.sol);
     }
 
     #tan() {
-        calculadora.pantalla.innerHTML = Math.tan(calculadora.pantalla.innerHTML);
-        calculadora.limpiar();
+        this.sol = Math.tan(parseFloat(calculadora.pantalla.innerHTML));
+        this.#finalizarOpcionOperacion(this.sol);
     }
 
     #asin() {
-        calculadora.pantalla.innerHTML = Math.asin(calculadora.pantalla.innerHTML);
-        calculadora.limpiar();
+        this.sol = Math.asin(parseFloat(calculadora.pantalla.innerHTML));
+        this.#finalizarOpcionOperacion(this.sol);
     }
 
     #acos() {
-        calculadora.pantalla.innerHTML = Math.acos(calculadora.pantalla.innerHTML);
-        calculadora.limpiar();
+        this.sol = Math.acos(parseFloat(calculadora.pantalla.innerHTML));
+        this.#finalizarOpcionOperacion(this.sol);
     }
 
     #atan() {
-        calculadora.pantalla.innerHTML = Math.atan(calculadora.pantalla.innerHTML);
-        calculadora.limpiar();
+        this.sol = Math.atan(parseFloat(calculadora.pantalla.innerHTML));
+        this.#finalizarOpcionOperacion(this.sol);
     }
 
     #exp() {
-        calculadora.pantalla.innerHTML = Math.exp(calculadora.pantalla.innerHTML);
-        calculadora.limpiar();
+        this.sol = Math.exp(parseFloat(calculadora.pantalla.innerHTML));
+        this.#finalizarOpcionOperacion(this.sol);
     }
 
     #log() {
-        calculadora.pantalla.innerHTML = Math.log10(calculadora.pantalla.innerHTML);
-        calculadora.limpiar();
+        this.sol = Math.log10(parseFloat(calculadora.pantalla.innerHTML));
+        this.#finalizarOpcionOperacion(this.sol);
     }
 
     #ln() {
-        calculadora.pantalla.innerHTML = Math.log(calculadora.pantalla.innerHTML);
-        calculadora.limpiar();
+        this.sol = Math.log(parseFloat(calculadora.pantalla.innerHTML));
+        this.#finalizarOpcionOperacion(this.sol);
     }
 
     #euler() {
-        calculadora.pantalla.innerHTML = Math.E;
-        calculadora.limpiar();
+        this.sol = Math.E;
+        this.#finalizarOpcionOperacion(this.sol);
     }
 
     #pi() {
-        calculadora.pantalla.innerHTML = Math.PI;
+        this.sol = Math.PI;
+        this.#finalizarOpcionOperacion(this.sol);
+    }
+
+    #abs() {
+        this.sol = Math.abs(calculadora.pantalla.innerHTML);
+        this.#finalizarOpcionOperacion(this.sol);
+    }
+
+    #cot() {
+        this.sol = eval(1/Math.tan(calculadora.pantalla.innerHTML));
+        this.#finalizarOpcionOperacion(this.sol);
+    }
+
+    #csc() {
+        this.sol = eval(1 / Math.sin(calculadora.pantalla.innerHTML));
+        this.#finalizarOpcionOperacion(this.sol);
+    }
+
+    #sec() {
+        this.sol = eval(1/Math.cos(calculadora.pantalla.innerHTML));
+        this.#finalizarOpcionOperacion(this.sol);
+    }
+
+    #random() {
+        this.sol = Math.random();
+        this.#finalizarOpcionOperacion(this.sol);
+    }
+
+    #finalizarOpcionOperacion(sol) {
+        calculadora.pantalla.innerHTML = sol;
         calculadora.limpiar();
+        calculadora.ans = sol;
     }
 }
 
