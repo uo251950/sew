@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="CalculadoraRPN.css"/>
+    <script src="CalculadoraRPN.js"></script>
+</head>
+<body>
+<header>
+    <h1>Calculadora RPN</h1>
+</header>
+<main>
+    <table>
+        <tr>
+            <td colspan="5" class="pantalla">
+                <p id = "salida">Pila vacía</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5" class="pantalla">
+                <p id = "entrada">0</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="opcionUnaria" value="sin" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionUnaria" value="cos" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionUnaria" value="tan" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionUnaria" value="sec" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionUnaria" value="cot" onclick="ejecutar(this)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="opcionUnaria" value="asin" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionUnaria" value="acos" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionUnaria" value="atan" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionUnaria" value="exp" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionUnaria" value="csc" onclick="ejecutar(this)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="opcionUnaria" value="log" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionUnaria" value="ln" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionBinaria" value="**" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionUnaria" value="||" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcion" value="Ran" onclick="ejecutar(this)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="opcion" value="MRC" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionUnaria" value="M-" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionUnaria" value="M+" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcion" value="e" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcion" value="pi" onclick="ejecutar(this)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="teclaBasica" value="7" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="8" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="9" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcion" value="+-" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="??????" value="¿?" onclick="ejecutar(this)"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="teclaBasica" value="4" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="5" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="6" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionBinaria" value="*" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionBinaria" value="/" onclick="ejecutar(this)"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="teclaBasica" value="1" onclick="ejecutar(this)"/>
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="2" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="3" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionBinaria" value="+" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcionBinaria" value="-" onclick="ejecutar(this)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="teclaBasica" value="0" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="." onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcion" value="C" onclick="ejecutar(this)"/>
+            </td>
+            <td>
+                <input type="button" class="opcion" value="Ans" onclick="ejecutar(this)"/>
+            </td>
+            <td>
+                <input type="button" class="enter" value="Enter" onclick="ejecutar(this)"/>
+            </td>
+        </tr>
+    </table>
+</main>
+<footer>
+    <a href="http://validator.w3.org/check/referer" hreflang="en-us">
+        <img src="multimedia/valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="87" />
+    </a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" />
+    </a>
+</footer>
+</body>
+</html>
