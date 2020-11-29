@@ -337,6 +337,7 @@ class OpcionUnaria extends Opcion {
         calculadora.memoria.apilar(this.sol);
         calculadora.getPantallaEntrada.innerHTML = "0";
         calculadora.getPantallaSalida.innerHTML = calculadora.memoria.mostrar();
+        calculadora.ans = this.sol;
     }
 }
 
@@ -410,6 +411,7 @@ class OpcionBinaria extends Opcion {
         calculadora.memoria.apilar(this.sol);
         calculadora.getPantallaEntrada.innerHTML = "0";
         calculadora.getPantallaSalida.innerHTML = calculadora.memoria.mostrar();
+        calculadora.ans = this.sol;
     }
 }
 
