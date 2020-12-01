@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="CalculadoraFinanciera.css"/>
+    <script src="CalculadoraFinanciera.js"></script>
+</head>
+<body>
+<header>
+    <h1>Calculadora financiera</h1>
+</header>
+<main>
+    <table>
+        <tr>
+            <th colspan="5">
+                <p>Amortizaciones</p>
+                <p id = "salida" class="pantalla">0</p>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="5">
+                <p id="modo">Modo préstamo</p>
+                <p id = "entrada" class="pantalla">0</p>
+            </th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" class="modoPrestamo" value="Préstamo" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="modoInteres" value="Interés" onclick="ejecutar(this)" />
+            </td>
+            <td colspan="2">
+                <input type="button" class="modoTiempo" value="Tiempo" onclick="ejecutar(this)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="opcion" value="MRC" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcion" value="M-" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcion" value="M+" onclick="ejecutar(this)" />
+            </td>
+            <td rowspan="5">
+                <input type="button" class="calcular" value="Calcular" onclick="ejecutar(this)" />
+            </td>
+            <td rowspan="5">
+                <input type="button" class="enter" value="Enter" onclick="ejecutar(this)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="teclaBasica" value="7" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="8" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="9" onclick="ejecutar(this)" />
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="teclaBasica" value="4" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="5" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="6" onclick="ejecutar(this)" />
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="teclaBasica" value="1" onclick="ejecutar(this)"/>
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="2" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="3" onclick="ejecutar(this)" />
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="teclaBasica" value="0" onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="teclaBasica" value="." onclick="ejecutar(this)" />
+            </td>
+            <td>
+                <input type="button" class="opcion" value="C" onclick="ejecutar(this)"/>
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p>Préstamo</p>
+                <p id = "mprestamo">0</p>
+            </td>
+            <td>
+                <p>Interés</p>
+                <p id = "minteres">0</p>
+            </td>
+            <td colspan="2">
+                <p>Tiempo</p>
+                <p id = "mtiempo">0</p>
+            </td>
+        </tr>
+    </table>
+</main>
+<footer>
+    <!-- Iconos de validación W3C -->
+    <a href="https://validator.w3.org/check?uri=referer" target="_blank">
+        <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+             alt="HTML5 Correcto" title="HTML5 Válido" height="64" width="63" />
+    </a>
+    <a href=" http://jigsaw.w3.org/css-validator/check/referer " target="_blank">
+        <img src=" http://jigsaw.w3.org/css-validator/images/vcss"
+             alt="Valid CSS!" height="31" width="88" />
+    </a>
+</footer>
+</body>
+</html>
