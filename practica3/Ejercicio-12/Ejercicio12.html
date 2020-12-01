@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 12</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="Ejercicio12.js"></script>
+    <link href="Ejercicio12.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>API File</h1>
+    <p id="label">Seleccione un archivo de texto: </p>
+
+    <input type="file" id="archivoTexto" onchange="ejecutar(this.files);">
+
+    <p id="nombreArchivo"></p>
+    <p id="tamañoArchivo"></p>
+    <p id="tipoArchivo"></p>
+    <p id="ultimaModificacion"></p>
+    <p id="contenidoArchivo"></p>
+    <pre id="areaTexto"></pre>
+    <p id="errorLectura"></p>
+</body>
+</html>
