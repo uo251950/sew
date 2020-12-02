@@ -34,9 +34,6 @@ class File {
         {
             var lector = new FileReader();
             lector.onload = function (evento) {
-                //El evento "onload" se lleva a cabo cada vez que se completa con éxito una operación de lectura
-                //La propiedad "result" es donde se almacena el contenido del archivo
-                //Esta propiedad solamente es válida cuando se termina la operación de lectura
                 areaVisualizacion.innerText = lector.result;
             }
             lector.readAsText(archivo);
