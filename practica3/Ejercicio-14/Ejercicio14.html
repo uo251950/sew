@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+            "width=device-width, initial-scale=1.0">
+    <link href="Ejercicio14.css" rel="stylesheet"/>
+
+    <title>
+        Ejercicio 14
+    </title>
+</head>
+
+<body>
+<h1>APPI 3</h1>
+<h2>Lienzo para dibujar</h2>
+<canvas id="canvas"></canvas>
+<h2>Localización</h2>
+<section id="ubicacion">
+<h2>Geográfica</h2>
+</section>
+<section id="mapa"><h2>Mapa</h2></section>
+<script src="Ejercicio14.js"></script>
+<h2>Obtener datos de cualquier fichero</h2>
+<label id="label" for="archivoTexto">Seleccione un archivo: </label>
+<input type="file" id="archivoTexto" onchange="ejecutar(this.files);">
+
+<p id="nombreArchivo"></p>
+<p id="tamañoArchivo"></p>
+<p id="tipoArchivo"></p>
+<p id="ultimaModificacion"></p>
+<p id="contenidoArchivo"></p>
+<pre id="areaTexto"></pre>
+<p id="errorLectura"></p>
+<footer>
+    <a href="http://validator.w3.org/check/referer" hreflang="en-us">
+        <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="¡HTML5 válido!" />
+    </a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" />
+    </a>
+</footer>
+</body>
+
+</html>
