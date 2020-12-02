@@ -61,7 +61,7 @@ class Geolocalizacion {
         var sensor = "&sensor=false";
 
         this.imagenMapa = url + centro + zoom + tamaño + marcador + sensor + apiKey;
-        ubicacion.innerHTML = "<img alt="Sin imagen del mapa" src='"+this.imagenMapa+"'/>";
+        ubicacion.innerHTML = "<img alt="Sin imagen" src='"+this.imagenMapa+"'/>";
     }
 }
 
