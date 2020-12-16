@@ -13,10 +13,12 @@
 <h1>Base de datos</h1>
 <main>
     <h2>Menú de gestión</h2>
-    <nav>
-        <form class="menu" action="CrearBD.php" method="post">
-            <input type="submit" name="crearbd" value="Crear BD">
+    <aside>
+        <form action="Ejercicio6.php" method="post">
+            <input type="submit" name="home" value="Volver al inicio">
         </form>
+    </aside>
+    <nav>
         <form action="CrearTabla.php" method="post">
             <input type="submit" name="creartabla" value="Crear tabla">
         </form>
@@ -27,9 +29,6 @@
             <input type="submit" name="modificar" value="Modificar">
         </form>
         <form action="Buscar.php" method="post">
-            <input type="submit" name="buscar" value="Buscar">
-        </form>
-        <form action="Modificar.php" method="post">
             <input type="submit" name="buscar" value="Buscar">
         </form>
         <form action="Borrar.php" method="post">
@@ -45,6 +44,8 @@
             <input type="submit" name="exportar" value="Exportar">
         </form>
     </nav>
+    <section>
+        <p>¡Base de datos creada!</p>    </section>
 </main>
 <footer>
     <!-- Iconos de validación W3C -->
@@ -57,3 +58,4 @@
     </a>
 </footer>
 </body>
+

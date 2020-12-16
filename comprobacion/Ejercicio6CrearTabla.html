@@ -3,7 +3,6 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" type="text/css" href="Ejercicio6.css" />
     <meta name="author" content="Álvaro de la Fuente Fernández" />
     <meta name="keywords" content="HTML, CSS" />
@@ -13,12 +12,14 @@
 <h1>Base de datos</h1>
 <main>
     <h2>Menú de gestión</h2>
-    <nav>
-        <form class="menu" action="CrearBD.php" method="post">
-            <input type="submit" name="crearbd" value="Crear BD">
+    <aside>
+        <form action="Ejercicio6.php" method="post">
+            <input type="submit" name="home" value="Volver al inicio">
         </form>
-        <form action="CrearTabla.php" method="post">
-            <input type="submit" name="creartabla" value="Crear tabla">
+    </aside>
+    <nav>
+        <form action="CrearBD.php" method="post">
+            <input type="submit" name="crearbd" value="Crear BD">
         </form>
         <form action="Insertar.php" method="post">
             <input type="submit" name="insertar" value="Insertar">
@@ -27,9 +28,6 @@
             <input type="submit" name="modificar" value="Modificar">
         </form>
         <form action="Buscar.php" method="post">
-            <input type="submit" name="buscar" value="Buscar">
-        </form>
-        <form action="Modificar.php" method="post">
             <input type="submit" name="buscar" value="Buscar">
         </form>
         <form action="Borrar.php" method="post">
@@ -45,6 +43,8 @@
             <input type="submit" name="exportar" value="Exportar">
         </form>
     </nav>
+    <section>
+        <p>¡Tabla PruebasUsabilidad creada!</p>    </section>
 </main>
 <footer>
     <!-- Iconos de validación W3C -->
@@ -57,3 +57,4 @@
     </a>
 </footer>
 </body>
+
