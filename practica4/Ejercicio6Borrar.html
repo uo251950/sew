@@ -19,6 +19,9 @@
         </form>
     </aside>
     <nav>
+        <form action="CrearBD.php" method="post">
+            <input type="submit" name="insertar" value="Crear BD">
+        </form>
         <form action="CrearTabla.php" method="post">
             <input type="submit" name="creartabla" value="Crear tabla">
         </form>
@@ -31,9 +34,6 @@
         <form action="Buscar.php" method="post">
             <input type="submit" name="buscar" value="Buscar">
         </form>
-        <form action="Borrar.php" method="post">
-            <input type="submit" name="borrar" value="Borrar">
-        </form>
         <form action="Informe.php" method="post">
             <input type="submit" name="informe" value="Informe">
         </form>
@@ -45,8 +45,15 @@
         </form>
     </nav>
     <section>
-        <h3>Creando base Usabilidad...</h3>
-        <p>¡Base de datos creada!</p>    </section>
+        <h3>Seleccionar participante</h3>
+        <form action="#" method="get">
+            <label for="seleccion">DNI</label>
+            <input id="seleccion" type="text" name="seleccion" maxlength="9" required />
+            <input type="submit" value="Seleccionar">
+        </form>
+    </section>
+    <section>
+        <h4>Borrar datos del participante con DNI: a</h4><p>Datos del participante borrados. Número de filas afectadas: 1</p>    </section>
 </main>
 <footer>
     <!-- Iconos de validación W3C -->

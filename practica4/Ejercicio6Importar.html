@@ -19,6 +19,9 @@
         </form>
     </aside>
     <nav>
+        <form action="CrearBD.php" method="post">
+            <input type="submit" name="insertar" value="Crear BD">
+        </form>
         <form action="CrearTabla.php" method="post">
             <input type="submit" name="creartabla" value="Crear tabla">
         </form>
@@ -37,16 +40,20 @@
         <form action="Informe.php" method="post">
             <input type="submit" name="informe" value="Informe">
         </form>
-        <form action="Importar.php" method="post">
-            <input type="submit" name="importar" value="Importar">
-        </form>
         <form action="Exportar.php" method="post">
             <input type="submit" name="exportar" value="Exportar">
         </form>
     </nav>
     <section>
-        <h3>Creando base Usabilidad...</h3>
-        <p>¡Base de datos creada!</p>    </section>
+        <h3>Importar datos desde CSV</h3>
+        <form action='/sew/Ejercicio-06/Importar.php' method='post' enctype="multipart/form-data">
+            <label for="file">Seleccione el archivo: </label>
+            <input id="file" type='file' name='examinar'>
+            <input type='submit' name='importar' value='Importar'>
+        </form>
+        <p>Error al insertar los datos en la tabla. Número de filas afectadas:  -1</p>CONSTRAINT `pruebasusabilidad.edad` failed for `usabilidad`.`pruebasusabilidad`<br />
+<b>Warning</b>:  fgetcsv(): supplied resource is not a valid stream resource in <b>C:\xampp\htdocs\sew\Ejercicio-06\BaseDatos.php</b> on line <b>424</b><br />
+    </section>
 </main>
 <footer>
     <!-- Iconos de validación W3C -->
@@ -60,3 +67,5 @@
 </footer>
 </body>
 </html>
+
+
